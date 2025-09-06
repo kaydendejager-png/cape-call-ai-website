@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cape Call AI - Never miss a client. Never miss a call.</title>
+    <style>
+        body { margin:0; font-family: Arial, sans-serif; color:#333; line-height:1.6; }
+        header, footer { background-color:#1B2A41; color:#fff; text-align:center; padding:2rem 1rem; }
+        header img { width:80px; height:auto; }
+        header h1 { margin:0.5rem 0; font-size:2rem; }
+        header p { margin:0; font-size:1.25rem; }
+        .btn-primary { display:inline-block; margin-top:1rem; padding:0.75rem 1.5rem; background-color:#F7C548; color:#1B2A41; border-radius:5px; text-decoration:none; font-weight:bold; }
+        section { padding:2rem 1rem; text-align:center; }
+        section h2 { margin-bottom:1rem; font-size:1.75rem; }
+        .features, .pricing { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; }
+        .card { flex:1 1 250px; background:#fff; padding:1.5rem; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+        .card h3 { margin-top:0; font-size:1.25rem; }
+        .faq { max-width:800px; margin:0 auto; text-align:left; }
+        .faq-item { margin-bottom:1rem; }
+        form { max-width:500px; margin:0 auto; display:flex; flex-direction:column; gap:0.75rem; }
+        form input, form textarea { padding:0.75rem; border:1px solid #ccc; border-radius:5px; }
+        form button { padding:0.75rem; background-color:#F7C548; color:#1B2A41; border:none; border-radius:5px; font-weight:bold; cursor:pointer; }
+        @media (max-width:600px) {
+            .features, .pricing { flex-direction:column; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Replace 'logo.png' with the relative path of your logo file in the repository -->
+        <img src="logo.png" alt="Cape Call AI Logo">
+        <h1>Cape Call AI</h1>
+        <p>Never miss a client. Never miss a call.</p>
+        <a href="#pricing" class="btn-primary">Get Started</a>
+    </header>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Connect</h3>
+                <p>Sign up and integrate our AI receptionist with your existing phone system and scheduling tools.</p>
+            </div>
+            <div class="card">
+                <h3>Automate</h3>
+                <p>Our AI answers calls 24/7, schedules appointments, and captures leads so you don't have to.</p>
+            </div>
+            <div class="card">
+                <h3>Grow</h3>
+                <p>Focus on your business while we convert missed calls into clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" style="background-color:#f5f5f5;">
+        <h2>Pricing</h2>
+        <div class="pricing">
+            <div class="card">
+                <h3>Standard</h3>
+                <p><strong>R10,000 once-off</strong><br>R3,000 per month</p>
+                <p>Perfect for startups &amp; small businesses.</p>
+                <ul style="text-align:left; list-style:disc; padding-left:1.25rem;">
+                    <li>24/7 AI receptionist</li>
+                    <li>Lead capture &amp; booking</li>
+                    <li>Email &amp; SMS notifications</li>
+                </ul>
+                <a href="#contact" class="btn-primary">Choose Standard</a>
+            </div>
+            <div class="card">
+                <h3>Premium</h3>
+                <p><strong>R30,000 once-off</strong></p>
+                <p>Ideal for larger enterprises.</p>
+                <ul style="text-align:left; list-style:disc; padding-left:1.25rem;">
+                    <li>All Standard features</li>
+                    <li>Custom integrations</li>
+                    <li>Dedicated support</li>
+                </ul>
+                <a href="#contact" class="btn-primary">Choose Premium</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <div class="faq-item">
+                <h3>What is Cape Call AI?</h3>
+                <p>Cape Call AI is a virtual receptionist service that uses artificial intelligence to answer calls, schedule appointments, and capture leads.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I integrate it with my business?</h3>
+                <p>After signing up, we'll help you forward your phone number and connect your scheduling tools. It works with popular calendars and booking apps.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is it available 24/7?</h3>
+                <p>Yes! Our AI receptionist answers calls at any time, ensuring you never miss an opportunity.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Which industries can benefit?</h3>
+                <p>Any business that relies on phone calls—salons, clinics, restaurants, repair shops, and more—can benefit from Cape Call AI.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to schedule a demo? Send us a message!</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="business" placeholder="Business Name" required>
+            <textarea name="message" rows="4" placeholder="How can we help?" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Cape Call AI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
